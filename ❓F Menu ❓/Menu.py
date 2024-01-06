@@ -1,5 +1,5 @@
 import subprocess
-from pystyle import *
+
 import time
 
 def load_proxies():
