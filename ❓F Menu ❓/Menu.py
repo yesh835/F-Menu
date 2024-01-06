@@ -19,7 +19,7 @@ def load_proxies():
     print("\n🟢Proxies activated🟢")
     time.sleep(0.5)
 
-
+with open('Tools/proxies.txt') as f:
     proxies = f.readlines()
     
 load_proxies()
